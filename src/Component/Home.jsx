@@ -46,17 +46,17 @@ const updateNote=((e,note)=>{
   return (
     <Box  sx={{
        height:"100vh",
-        background:"linear-gradient(177deg,pink,pink)",
+        background:"linear-gradient(177deg,pink,white)",
         display:"flex",
         justifyContent:"center",
         alignItems:"center" ,
         }}>
-          <Paper sx={{ p:10, }} >
-            <Box sx={{flexGrow:1}}>
+          <Paper sx={{ p:10, background:"linear-gradient(177deg,white,lightblue)"}} >
+            <Box sx={{flexGrow:2}}>
           <Grid container spacing={2}>
           <Typography variant="h5" gutterBottom 
         sx={{
-          color:"gold",
+          color:"blue",
            fontWeight:"600",
            textAlign:"center",
            textTransform:"uppercase",
