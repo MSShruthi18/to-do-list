@@ -6,7 +6,6 @@ export default function InsertForm({setNotes,notes}) {
   const[noteTitleError,setNoteTitleError]=useState("");
 
 
-
   const handleChange=(e)=>{
     // setNoteError(null)
     setNoteTitle(e.target.value)
